@@ -61,6 +61,6 @@ def go_home(pushed):
         machine.deepsleep(1)
 
 ugfx.input_attach(ugfx.BTN_A, load_tickets)
-ugfx.input_attach(ugfx.BTN_B,
+ugfx.input_attach(ugfx.BTN_B, go_home)
 
 main()
