@@ -52,7 +52,7 @@ def get_tweets(pushed):
     ugfx.string(45,85,tweet_text,"Roboto_Black22",ugfx.BLACK)
     ugfx.flush()
 
-def main()
+def main():
     get_tweets(1)
 
 def go_home(pushed):
