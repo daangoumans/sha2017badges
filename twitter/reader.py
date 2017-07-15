@@ -1,4 +1,4 @@
-mport ugfx
+import ugfx
 import sys
 import badge
 import json
