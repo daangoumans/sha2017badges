@@ -7,7 +7,7 @@ import requests
 def get_tweets(hashtag):
 	gc.collect()
 	try:
-		data = requests.get("http://192.168.1.147/html/twitter/get.php?hashtag="+hashtag)
+		data = requests.get("http://server/html/twitter/get.php?hashtag="+hashtag)
 	except:
 		print("Could not download JSON!")
 		time.sleep(1)
