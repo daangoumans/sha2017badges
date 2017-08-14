@@ -4,3 +4,6 @@ twitter __ init __.py = a twitter reader for on your badge (display's newest twe
 
 
 https://wiki.sha2017.org/w/Projects:Badge/MicroPython
+
+
+local copy for research etc..
